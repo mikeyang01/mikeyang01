@@ -1,7 +1,7 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
+  schedule: # 每天 03:00 JST（= 18:00 UTC）
     - cron: "0 18 * * *"
   workflow_dispatch:
 
@@ -9,16 +9,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate 3D Contribution Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.6.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: ${{ github.repository_owner }}
-      - name: Commit & Push
+          USERNAME: mikeyang01  # 可写死或保留 github.repository_owner
+
+      - name: Commit & Push Changes
         run: |
-          git config user.name FranzKafka
-          git config user.email franzkafkayu@gmail.com
-          git add -A .
-          git commit -m "generated"
+          git config --global user.name "mikeyang01"
+          git config --global user.email "action@github.com"
+          git add profile-3d-contrib/*.svg
+          git commit -m "chore: auto-generate 3D GitHub contrib graph" || echo "No changes to commit"
           git push
