@@ -12,8 +12,9 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
+![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white)
+![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
 ## ⚡ Tech Stacks
 
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=Python)
@@ -33,7 +34,7 @@
 ## 🌎 Find me  
 - 📧 邮箱: 
 - 📝 博客: 
-- 📮 微信公众号: 搜索 
+- 📮 X(Twitter)
 
 ## 🚀 Blog Posts
 <!-- BLOG-POST-LIST:START -->
