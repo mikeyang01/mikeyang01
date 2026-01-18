@@ -28,9 +28,6 @@
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 ![VS Code](https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code)
 
-![Anurag's GitHub stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mikeyang01&theme=tokyonight&show_icons=true&card_width=495px)
-![Streak stats](https://github-readme-streak-stats.herokuapp.com/?user=mikeyang01&show_icons=true&theme=tokyonight)
-
 ## 🌎 Find me  
 - 📧 邮箱: 
 - 📝 博客: 
