@@ -42,4 +42,4 @@
 <!-- BLOG-POST-LIST:END -->
 
 ## 🌍 Visitors
-![Visits Badge](https://badges.pufler.dev/visits/mikeyang01/mikeyang01)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=mikeyang01.mikeyang01)
